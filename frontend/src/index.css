@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.fullscreen {
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  display: flex; /* optional: for centering content */
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* optional background */
+}
+.animated-modal .modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+.modal-body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.homepage {
+  perspective: 1000px;
+  overflow-x: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  transform: rotateY(10deg) scale(1.05);
+}
+
+button:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 120, 78, 0.6);
+  transition: all 0.3s ease;
+}
