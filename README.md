@@ -4,6 +4,9 @@ Welcome to **NASA Data Explorer**! This web application allows users to explore 
 
 ---
 
+## Clone the repository:
+git clone https://github.com/maliparag11/NASA-Data-Explorer/
+
 ## 🔗 Live Demo
 Check out the live version of the app:  
 https://nasa-data-explorer-1-tvse.onrender.com/ ----> Frontend
